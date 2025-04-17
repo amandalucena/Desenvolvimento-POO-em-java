@@ -1,30 +1,35 @@
-# Desenvolvimento-POO-em-java
-📚 Repositório de Estudos de Programação Orientada a Objetos (POO) em Java com Aplicações Práticas
+# 🐶 PetShop - Sistema de Cadastro de Animais
 
-Este repositório foi criado para consolidar meus estudos em Java, com foco em Programação Orientada a Objetos (POO) e estruturas da API de Collections.
+Este projeto foi desenvolvido para praticar **Programação Orientada a Objetos (POO)** em Java com foco em **herança**, **polimorfismo**, **classe abstrata**, **sobrescrita de métodos**, **ArrayList** e o uso do operador `instanceof`.
 
-Os exemplos aqui desenvolvidos têm como base um sistema de PetShop, e utilizam conceitos fundamentais de POO, como:
+---
 
-✅ Classes e Objetos
+## 📌 Funcionalidades
 
-✅ Encapsulamento
+- ✅ Cadastro de diferentes tipos de animais (`Cachorro`, `Gato`, `Passaro`)
+- ✅ Listagem de todos os animais
+- ✅ Execução do som de cada animal usando polimorfismo
+- ✅ Identificação do tipo de animal com `instanceof`
 
-✅ Herança
+---
 
-✅ Polimorfismo
+## 🧱 Conceitos Aplicados
 
-✅ Abstração
+- **Classe abstrata (`Animal`)** com atributos comuns e método abstrato `emitirSom()`
+- **Herança**: `Cachorro`, `Gato` e `Passaro` estendem `Animal`
+- **Polimorfismo**: Método `emitirSom()` sobrescrito em cada classe
+- **ArrayList** para armazenar e gerenciar os animais
+- **instanceof** para verificar o tipo do animal dinamicamente
 
-Além disso, também são aplicadas estruturas de dados importantes no desenvolvimento de aplicações Java:
+---
 
-📋 ArrayList para gerenciamento dinâmico de listas de objetos (ex: lista de animais, clientes ou serviços).
+## 🚀 Como executar
 
-🔄 Collections para ordenar, buscar e manipular dados de forma eficiente.
+1. Compile todos os arquivos em `src/`
+2. Execute o arquivo `Main.java`
 
-🧠 HashMap para mapeamento de chaves e valores (ex: cadastro de animais por ID, clientes por CPF, etc).
+---
 
-📦 Interfaces e uso de classes abstratas para reforçar a flexibilidade e modularidade do código.
+## 👩‍💻 Autora
 
-💡 Sobrecarga de métodos, uso de construtores, e boas práticas com toString() e equals().
-
-O objetivo é criar um projeto que vá crescendo conforme novos tópicos forem sendo estudados, mantendo uma estrutura limpa e didática.
+Amanda 💙
